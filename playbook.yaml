@@ -6,7 +6,7 @@
   gather_facts: yes
 
   vars:
-    custom_heading: "Welcome To Telugu AWS Training B43 By Sreeharsha Veerapalli - Autoscaling Testing"
+    custom_heading: "Welcome To Autoscaling Testing -  This Instance has been creating using AWS Launch Template + AWS Auto Scaling"
     todays_date: "{{ ansible_facts['date_time']['date'] }}"
     host_name: "{{ ansible_facts['hostname'] }}"
     fqdn_name: "{{ ansible_facts['fqdn'] }}"
